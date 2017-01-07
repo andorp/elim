@@ -1,0 +1,24 @@
+name:                elim
+version:             0.1.0.0
+synopsis:            Eliminators for ADTs
+description:         Please see README.md
+homepage:            http://github.com/andorp/elim
+license:             BSD3
+license-file:        LICENSE
+author:
+  - Andor Penzes <andor.penzes@gmail.com>
+maintainer:          andor.penzes@gmail.com
+copyright:           2016- Andor Penzes
+category:            Data
+
+ghc-options:
+  - -Werror
+  - -Wall
+
+dependencies:
+  - base >= 4.9
+  - template-haskell
+
+library:
+  source-dirs:
+    - src

@@ -1,0 +1,28 @@
+-- This file has been generated from package.yaml by hpack version 0.14.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           elim
+version:        0.1.0.0
+synopsis:       Eliminators for ADTs
+description:    Please see README.md
+category:       Data
+homepage:       http://github.com/andorp/elim
+author:         Andor Penzes <andor.penzes@gmail.com>
+maintainer:     andor.penzes@gmail.com
+copyright:      2016- Andor Penzes
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+library
+  hs-source-dirs:
+      src
+  ghc-options: -Werror -Wall
+  build-depends:
+      base >= 4.9
+    , template-haskell
+  exposed-modules:
+      Control.Elim
+  default-language: Haskell2010
